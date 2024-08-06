@@ -1,0 +1,14 @@
+[package]
+name = "rcl404"
+version = "0.0.1"
+edition = "2021"
+authors = ["archways <archways@gmx.us>"]
+description = "A command-line tool to remove console.log statements from JavaScript files"
+license = "MIT"
+repository = "https://github.com/archways404/rcl"
+homepage = "https://github.com/archways404/rcl"
+documentation = "https://github.com/archways404/rcl/blob/main/README.md"
+
+[dependencies]
+walkdir = "2.3"
+regex = "1"
